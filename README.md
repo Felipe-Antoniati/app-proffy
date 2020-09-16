@@ -147,7 +147,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Axios](https://github.com/axios/axios)**
 -   **[Leaflet](https://react-leaflet.js.org/en/)**
 -   **[React Leaflet](https://react-leaflet.js.org/)**
--   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
 
 > Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
 
@@ -159,9 +158,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[SQLite](https://github.com/mapbox/node-sqlite3)**
 -   **[ts-node](https://github.com/TypeStrong/ts-node)**
 -   **[dotENV](https://github.com/motdotla/dotenv)**
--   **[Multer](https://github.com/expressjs/multer)**
--   **[Celebrate](https://github.com/arb/celebrate)**
--   **[Joi](https://github.com/hapijs/joi)**
 
 > Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
 
