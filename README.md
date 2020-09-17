@@ -24,10 +24,10 @@ Este Projeto foi desenvolvido durante à **NLW 2** (Next Level Week 2) um evento
 O conteúdo é exibido durante 1 semana, e em cada dia da semana, é apresentado uma etapa para o desenvolvimento do projeto, desde o Back-end até o Front-end Web e Mobile, utilizando as melhores tecnologias.
 
 <div align="center">
-  <sub>Agradecimento Especial 💜
-    <a href="https://github.com/diego3g">Diego Fernandez</a> e toda à equipe:
+  <sub>Agradecimento de 💜 à
+    <a href="https://github.com/diego3g">Diego Fernandez</a> e toda equipe:
     <a href="https://github.com/rocketseat">
-      Rocketseat
+      **&copy; <img src="imgs/rocketseat.svg" alt="rocketseat" height="20"> [Rocketseat](https://rocketseat.com.br/)**
     </a>
     :facepunch:
   </sub>
@@ -39,13 +39,13 @@ O conteúdo é exibido durante 1 semana, e em cada dia da semana, é apresentado
 
 - [x] Os Professores tem acesso ao aplicativo Web, onde podem: 
   - [x] Cadastrar-se na plataforma enviando:
-   - [x] Uma imagem para o perfil (avatar).
-   - [x] Nome completo, Email e Whatsapp.
-   - [x] Biografia.
+    - [x] Uma imagem para o perfil (avatar).
+    - [x] Nome completo, Email e Whatsapp.
+    - [x] Biografia.
   - [x] Cadastrar Aulas selecionando:
-   - [x] Uma Matéria.
-   - [x] Um dia da semana.
-   - [x] Um horário.
+    - [x] Uma Matéria.
+    - [x] Um dia da semana.
+    - [x] Um horário.
 
 - [x] Os Alunos tem acesso ao aplicativo Mobile, onde podem:
   - [x] Selecionar a Matéria, o dia da semana e a hora que quer estudar.
@@ -195,7 +195,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <sub><b>Felipe Antoniati</b></sub></a> <a href="https://github.com/felipe-antoniati" title="Fullstack Programmer">🚀</a>
  <br /><br />
 
-[![Twitter Badge](https://img.shields.io/badge/-@felipe-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/)](https://twitter.com/) [![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/)](https://www.linkedin.com/) 
+[![Twitter Badge](https://img.shields.io/badge/-@felipe-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/)](https://twitter.com/) [![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/)](https://www.linkedin.com/in/felipe-antoniati-1288041b7/) 
 [![Gmail Badge](https://img.shields.io/badge/-antoniati.felipe@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:antoniati.felipe@gmail.com)](mailto:antoniati.felipe@gmail.com)
 
 ---
