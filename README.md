@@ -8,6 +8,8 @@
 	<img  src="./.github/proffy.png">
 </div>
 
+
+
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
@@ -72,20 +74,17 @@ Este projeto é divido em três partes:
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+$ git clone https://github.com/Felipe-Antoniati/app-proffy-1.0.git
 
 ```
 
 
-#### :minidisc: Iniciar o Servidor (Back-end)
+#### :minidisc: Iniciar o Servidor (API)
 
 ```bash
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd app-ecoleta
-
-# Vá para a pasta server do projeto
-$ cd app-ecoleta/server
+# Acesse a pasta server do projeto no terminal/cmd
+$ cd app-proffy-1.0/server
 
 # Instale as dependências
 $ npm install
@@ -93,23 +92,23 @@ $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# O servidor inciará na porta:5000 - acesse http://localhost:5000
 
 ```
 
 
-#### 💻 Iniciar Aplicação Web (Frontend)
+#### 💻 Iniciar Aplicação Web
 
 ```bash
 
-# Vá para a pasta da aplicação Front End Web
-$ cd app-ecoleta/client/web
+# Vá para a pasta Web da aplicação
+$ cd app-proffy-1.0/client/web
 
 # Instale as dependências
 $ npm install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run start
+$ npm start
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
@@ -119,7 +118,7 @@ $ npm run start
 #### 📱 Iniciar APlicação Mobile
 
 ``` bash
-Para rodar o projeto mobile você precisa de um celular com o **[Expo](https://expo.io/)** instlado ou um emulador android/ios.
+Para rodar o projeto mobile você precisa de um celular com o EXPO instlado ou um emulador android/ios.
 
 # Vá para a pasta mobile
 $ cd app-ecoleta/client/mobile
@@ -130,7 +129,7 @@ $ yarn install
 # Rode a aplicação
 $ yarn start
 
-Depois leia o QRCode com o app do **[Expo](https://expo.io/)** ou rode em um emulador.
+Depois leia o QRCode com o app do EXPO ou rode em um emulador.
 
 ```
 
@@ -146,8 +145,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 -   **[React Icons](https://react-icons.github.io/react-icons/)**
 -   **[Axios](https://github.com/axios/axios)**
--   **[Leaflet](https://react-leaflet.js.org/en/)**
--   **[React Leaflet](https://react-leaflet.js.org/)**
 
 > Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
 
@@ -157,8 +154,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
 -   **[KnexJS](http://knexjs.org/)**
 -   **[SQLite](https://github.com/mapbox/node-sqlite3)**
--   **[ts-node](https://github.com/TypeStrong/ts-node)**
--   **[dotENV](https://github.com/motdotla/dotenv)**
+-   **[ts-node-dev](https://github.com/TypeStrong/ts-node)**
 
 > Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
 
@@ -167,12 +163,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Expo](https://expo.io/)**
 -   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
 -   **[React Navigation](https://reactnavigation.org/)**
--   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
--   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
--   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
 -   **[Axios](https://github.com/axios/axios)**
--   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
--   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
 
 > Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/mobile/package.json)
 
