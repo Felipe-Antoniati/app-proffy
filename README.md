@@ -4,6 +4,8 @@
 	🚧  EM CONSTRUÇÃO!!! 🚧
 </h4>
 
+<img align="center" src="./.github/proffy.png">
+
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> •
@@ -24,12 +26,9 @@ Este Projeto foi desenvolvido durante à **NLW 2** (Next Level Week 2) um evento
 O conteúdo é exibido durante 1 semana, e em cada dia da semana, é apresentado uma etapa para o desenvolvimento do projeto, desde o Back-end até o Front-end Web e Mobile, utilizando as melhores tecnologias.
 
 <div align="center">
-  <sub>Agradecimento de 💜 à
-    <a href="https://github.com/diego3g">Diego Fernandez</a> e toda equipe:
-    <a href="https://github.com/rocketseat">
-      **&copy; <img src="imgs/rocketseat.svg" alt="rocketseat" height="20"> [Rocketseat](https://rocketseat.com.br/)**
-    </a>
-    :facepunch:
+  <sub>Agradeço de 💜 à
+    <a href="https://github.com/diego3g">Diego Fernandez</a> e toda à equipe:
+    <a href="https://github.com/rocketseat">Rocketseat</a> :facepunch:    
   </sub>
 </div>
 
@@ -118,7 +117,7 @@ $ npm run start
 #### 📱 Iniciar APlicação Mobile
 
 ``` bash
-Para rodar o projeto mobile você precisa de um celular com o [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instlado ou um emulador android/ios.
+Para rodar o projeto mobile você precisa de um celular com o **[Expo](https://expo.io/)** instlado ou um emulador android/ios.
 
 # Vá para a pasta mobile
 $ cd app-ecoleta/client/mobile
@@ -129,7 +128,7 @@ $ yarn install
 # Rode a aplicação
 $ yarn start
 
-Depois leia o QRCode com o app do [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) ou rode em um emulador.
+Depois leia o QRCode com o app do **[Expo](https://expo.io/)** ou rode em um emulador.
 
 ```
 
@@ -212,6 +211,3 @@ Este projeto esta sobe a licença [MIT](./LICENSE).
 
 
 De uma ⭐️ neste Projeto, para liberar a dopamina!
-
-
-
