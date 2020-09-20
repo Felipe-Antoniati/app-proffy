@@ -4,7 +4,9 @@
 	🚧  EM CONSTRUÇÃO!!! 🚧
 </h4>
 
-<img align="center" src="./.github/proffy.png">
+<div align="center"> 
+	<img  src="./.github/proffy.png">
+</div>
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
