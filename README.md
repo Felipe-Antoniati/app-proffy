@@ -1,14 +1,8 @@
-# Proffy APP - Marketplace de Estudos
-
-<h4 align="center"> 
-	🚧  EM CONSTRUÇÃO!!! 🚧
-</h4>
+# Proffy 1.0 - Marketplace de Estudos
 
 <div align="center"> 
 	<img  src="./.github/proffy.png">
 </div>
-
-
 
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
@@ -19,15 +13,13 @@
  <a href="#user-content--licença">Licença</a>
 </p>
 
-
 ##  Sobre o projeto
 
-Proffy - é um Marketplace desenvolvido para fazer à conexão entre Professores particulares e pessoas que precisam estudar Matérias do Ensino Médio; Essa conexão é feita através do cadastro de aulas por parte dos professores, e pelos alunos entrando em contato via Whatsapp. 
+Proffy 1.0 - é um Marketplace desenvolvido para fazer à conexão entre Professores particulares e pessoas que precisam estudar sobre Matérias do Ensino Médio; Essa conexão é feita através do cadastro de Aulas por parte dos Professores, e pelos Alunos entrando em contato via Whatsapp. 
 
+Este Projeto foi desenvolvido durante à **NLW 2** (Next Level Week 2) um evento oferecido pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/). À NLW é um curso intensivo online e gratuito, com muito código, desafios, networking e um único objetivo: te levar para o próximo nível.
 
-Este Projeto foi desenvolvido durante à **NLW 2** (Next Level Week 2) um evento oferecido pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/). À NLW é um curso intensivo online e gratuito, com muito conteúdo prático e informativo! 
-
-O conteúdo é exibido durante 1 semana, e em cada dia da semana, é apresentado uma etapa para o desenvolvimento do projeto, desde o Back-end até o Front-end Web e Mobile, utilizando as melhores tecnologias.
+O conteúdo é exibido durante 1 semana, e em cada dia da semana, é apresentado uma etapa para o desenvolvimento do projeto, desde o Back-end com a construção de uma API REST, até o Front-end Web e Mobile, utilizando as melhores tecnologias do mercado.
 
 <div align="center">
   <sub>Agradeço de 💜 à
@@ -78,7 +70,6 @@ $ git clone https://github.com/Felipe-Antoniati/app-proffy-1.0.git
 
 ```
 
-
 #### :minidisc: Iniciar o Servidor (API)
 
 ```bash
@@ -96,12 +87,11 @@ $ npm run dev
 
 ```
 
-
 #### 💻 Iniciar Aplicação Web
 
 ```bash
 
-# Vá para a pasta Web da aplicação
+# Vá para a pasta web da aplicação
 $ cd app-proffy-1.0/client/web
 
 # Instale as dependências
@@ -114,27 +104,25 @@ $ npm start
 
 ```
 
-
 #### 📱 Iniciar APlicação Mobile
 
 ``` bash
-Para rodar o projeto mobile você precisa de um celular com o EXPO instlado ou um emulador android/ios.
+Para rodar o projeto mobile você precisa de um celular com o EXPO instalado, ou um emulador android/ios.
 
-# Vá para a pasta mobile
-$ cd app-ecoleta/client/mobile
+# Vá para a pasta mobile da aplicação
+$ cd app-ecoleta-1.0/client/mobile
 
 # Instale as depedencias
-$ yarn install
+$ npm install
 
 # Rode a aplicação
-$ yarn start
+$ npm start
 
 Depois leia o QRCode com o app do EXPO ou rode em um emulador.
 
 ```
 
 ---
-
 
 ## 🛠 Tecnologias
 
@@ -143,7 +131,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[React Icons](https://react-icons.github.io/react-icons/)**
 -   **[Axios](https://github.com/axios/axios)**
 
 > Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
@@ -153,8 +140,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Express](https://expressjs.com/)**
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
 -   **[KnexJS](http://knexjs.org/)**
--   **[SQLite](https://github.com/mapbox/node-sqlite3)**
--   **[ts-node-dev](https://github.com/TypeStrong/ts-node)**
+-   **[SQLite3](https://github.com/mapbox/node-sqlite3)**
+-   **[ts-node](https://github.com/TypeStrong/ts-node)**
 
 > Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
 

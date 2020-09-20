@@ -91,13 +91,9 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     height: 56,
     borderRadius: 8,
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     alignItems: 'center',
-    marginRight: 8,
-  },
-
-  contactButtonImg:{
-    marginLeft: 10,
+    marginRight: -16,
   },
   
   contactButtonText: {

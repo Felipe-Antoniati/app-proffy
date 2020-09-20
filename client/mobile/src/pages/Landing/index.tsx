@@ -43,7 +43,7 @@ const Landing = () => {
         </Text>
       </Text>
 
-      <View style={styles.buttonsContaineer}>
+      <View style={styles.buttonsContainer}>
         <RectButton 
           onPress={handleNavigateToStudyPages}
           style={[styles.button, styles.buttonPrimary]}
