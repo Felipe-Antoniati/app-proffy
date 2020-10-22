@@ -1,193 +1,227 @@
-# Proffy 1.0 - Marketplace de Estudos
+# Proffy
 
-<div align="center"> 
-	<img  src="./.github/proffy.png">
-</div>
-
+<h4 align="center"> 
+	<img src="./.github/proffy.png" style="width: 90rem"/>
+</h4>
+<br />
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#-about-the-project">About</a> •
+ <a href="#-how-to-run-the-project">How to run</a> • 
+ <a href="#-functionalities">Functionalities</a> •
+ <a href="#-technologies">Technologies</a> • 
+ <a href="#-autor">Author</a> • 
+ <a href="#user-content--licença">License</a>
 </p>
 
-##  Sobre o projeto
+## About the Project
 
-Proffy 1.0 - é um Marketplace desenvolvido para fazer à conexão entre Professores particulares e pessoas que precisam estudar sobre Matérias do Ensino Médio; Essa conexão é feita através do cadastro de Aulas por parte dos Professores, e pelos Alunos entrando em contato via Whatsapp. 
+**Proffy** - Marketplace developed to make the connection between Private Teachers and people who need to study on High School Subjects; This connection is made through the registration of Classes by the Teachers, and by Students contacting via Whatsapp.
 
-Este Projeto foi desenvolvido durante à **NLW 2** (Next Level Week 2) um evento oferecido pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/). À NLW é um curso intensivo online e gratuito, com muito código, desafios, networking e um único objetivo: te levar para o próximo nível.
-
-O conteúdo é exibido durante 1 semana, e em cada dia da semana, é apresentado uma etapa para o desenvolvimento do projeto, desde o Back-end com a construção de uma API REST, até o Front-end Web e Mobile, utilizando as melhores tecnologias do mercado.
-
-<div align="center">
-  <sub>Agradeço de 💜 à
-    <a href="https://github.com/diego3g">Diego Fernandez</a> e toda à equipe:
-    <a href="https://github.com/rocketseat">Rocketseat</a> :facepunch:    
+<details>
+  <summary>Click here for more informations</summary>
+  <br />
+  <section>
+    <div>
+     This Project was developed during the <b>Next Level Week 1 (NLW)</b> an event offered by <a href="https://blog.rocketseat.com.br/">RocketSeat</a>. <b>NLW</b> is a free and intensive online course, with lots of code, challenges, networking and a single objective: to take you to the next level.
+    </div>
+    <br />
+    <div>
+    The content is displayed during <b>1 week</b>, and on each day of the week, a stage for the development of the project is presented, from the <b>Back-end</b> to the <b>Front-end Web</b> and <b>Mobile</b>, using the technologies: 
+    <br />
+    <div align="center" style="display: flex; flex-direction: row; margin-left: 1.6rem">
+      <a href="">NodeJS <img src="./.github/nodejs.png" alt="NodeJs" style="width: 60%/></a>
+      <a href="">ReacJs <img src="./.github/reactjs.png" alt="NodeJs" style="width: 60%/></a>
+      <a href="">React Native <img src="./.github/react-native.png" alt="NodeJs"style="width: 60%"/></a>
+    </div> 
+    </div>  
+  </section>
+</details>
+<br />
+ <div align="center">
+  <sub>I sincerely thank:
+    <a href="https://github.com/diego3g">Diego Fernandez</a> and whole team:
+    <a href="https://github.com/rocketseat">Rocketseat</a>
   </sub>
 </div>
 
 ---
 
-## ⚙️ Funcionalidades
+## How to run the project
 
-- [x] Os Professores tem acesso ao aplicativo Web, onde podem: 
-  - [x] Cadastrar-se na plataforma enviando:
-    - [x] Uma imagem para o perfil (avatar).
-    - [x] Nome completo, Email e Whatsapp.
-    - [x] Biografia.
-  - [x] Cadastrar Aulas selecionando:
-    - [x] Uma Matéria.
-    - [x] Um dia da semana.
-    - [x] Um horário.
-
-- [x] Os Alunos tem acesso ao aplicativo Mobile, onde podem:
-  - [x] Selecionar a Matéria, o dia da semana e a hora que quer estudar.
-  - [x] Entrar em contato com os professores através do E-mail ou do WhatsApp.
-
----
-
-## 🚀 Como executar o projeto
-
-Este projeto é divido em três partes:
-1. Back-end (pasta server) 
-2. Front-end Web (pasta web)
-3. Front-end Mobile (pasta mobile)
-
-💡Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
-
-### Pré-requisitos
-
-É necessário ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) - [Node.js](https://nodejs.org/en/) - [NPM](https://www.npmjs.com/) || [YARN](https://yarnpkg.com/)
-
+<details>
+  <summary>This project is separated into three parts:</summary>
+  <section>
+    <div>
+    <h4>1 Back-end(server folder)</h4> 
+    <h4>2 Front-end Web (web folder)</h4>
+    <h4>3 Front-end Mobile (mobile folder)</h4>
+    <br />
+    <h2>Front-end Web and Mobile applications need the Backend to be running to work.</h2>
+    </div>
+  </section>
+</details>
 
 ```bash
 
-# Clone este repositório
-$ git clone https://github.com/Felipe-Antoniati/app-proffy-1.0.git
+# Clone this repository
+$ git clone https://github.com/Felipe-Antoniati/proffy-v1-nlw2.git
 
 ```
 
-#### :minidisc: Iniciar o Servidor (API)
+#### Start Server
 
 ```bash
 
-# Acesse a pasta server do projeto no terminal/cmd
-$ cd app-proffy-1.0/server
+# Access the project's server folder through the terminal/powershell
+$ cd proffy-v1-nlw2/server
 
-# Instale as dependências
-$ npm install
+# Install dependencies
+$ yarn install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
+# Run the application in development mode
+$ yarn dev
 
-# O servidor inciará na porta:5000 - acesse http://localhost:5000
+# The server will start at the port: 5000 - access http://localhost:5000
 
 ```
 
-#### 💻 Iniciar Aplicação Web
+#### Start Web Application
 
 ```bash
 
-# Vá para a pasta web da aplicação
-$ cd app-proffy-1.0/client/web
+# Access the project's server folder through the terminal/powershell
+$ cd proffy-v1-nlw2/client/web
 
-# Instale as dependências
-$ npm install
+# Install dependencies
+$ yarn install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm start
+# Run the application in development mode
+$ yarn start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# The application will open at the door:3000 - acess http://localhost:3000
 
 ```
 
-#### 📱 Iniciar APlicação Mobile
+#### Start Mobile Application
 
-``` bash
-Para rodar o projeto mobile você precisa de um celular com o EXPO instalado, ou um emulador android/ios.
+```bash
+To run the mobile project you need a cell phone with Expo installed
+or an android / ios emulator.
 
-# Vá para a pasta mobile da aplicação
-$ cd app-ecoleta-1.0/client/mobile
+# Access the project's server folder through the terminal/powershell
+$ cd proffy-v1-nlw2/client/mobile
 
-# Instale as depedencias
-$ npm install
+# Install dependencies
+$ yarn install
 
-# Rode a aplicação
-$ npm start
+# Run the application in development mode
+$ yarn start
 
-Depois leia o QRCode com o app do EXPO ou rode em um emulador.
+> Then read the QR Code with the Expo app or run on an emulator.
 
 ```
 
 ---
 
-## 🛠 Tecnologias
+## Functionalities
 
-As seguintes ferramentas foram usadas na construção do projeto:
+- [x] Teachers have access to the **Web application**, where they can:
 
-#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+  - [x] Register on the platform by sending:
+    - [x] An image for the profile (avatar).
+    - [x] Full name, Email and Whatsapp.
+    - [x] Biography.
+  - [x] Register Classes by selecting:
+    - [x] One Matter.
+    - [x] One day of the week.
+    - [x] A schedule.
 
--   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
--   **[Axios](https://github.com/axios/axios)**
-
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
-
-#### **Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
-
--   **[Express](https://expressjs.com/)**
--   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
--   **[KnexJS](http://knexjs.org/)**
--   **[SQLite3](https://github.com/mapbox/node-sqlite3)**
--   **[ts-node](https://github.com/TypeStrong/ts-node)**
-
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
-
-#### **Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
-
--   **[Expo](https://expo.io/)**
--   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
--   **[React Navigation](https://reactnavigation.org/)**
--   **[Axios](https://github.com/axios/axios)**
-
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/mobile/package.json)
-
-
-
-##  💪 Como contribuir para o projeto
-
-1. Faça um **fork** deste projeto.
-2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
-3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
-4. Envie as suas alterações: `git push origin my-feature`
-> Em caso de dúvidas, confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
+- [x] Students have access to the **Mobile application**, where they can:
+  - [x] Select the subject, the day of the week and the time you want to study.
+  - [x] Get in touch with teachers via E-mail or WhatsApp.
 
 ---
 
-## 👨‍💻 Dev,s que trabalharam neste Repositório
+## Technologies
+
+**These are the tools used in the construction of the project:**
+
+<details>
+  <summary><b>Server - <a href="https://nodejs.org/en/">NodeJS</a> + <a href="https://www.typescriptlang.org/">Typescript</a></b></summary>
+  <section>
+    <div style="display: flex; flex-direction: column">
+     <a href="https://expressjs.com/">Express</a><br />
+      <a href="https://expressjs.com/en/resources/middleware/cors.html">Cors</a><br />
+      <a href="https://knexjs.org/">Knexjs</a><br />
+      <a href="https://github.com/mapbox/node-sqlite3">SQLite3</a><br />
+      <a href="https://github.com/TypeStrong/ts-node">ts-node</a><br />
+      <br />
+      <sub>
+        <h1> See the package.json file for more information.</h1>      
+      </sub>
+    </div>
+  </section>
+</details>
+<details>
+  <summary><b>Web - <a href="https://reactjs.org">React</a> + <a href="https://www.typescriptlang.org/">Typescript</a></b></summary>
+  <section>
+    <div style="display: flex; flex-direction: column">
+      <a href="https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom">React Router Dom</a><br />
+      <a href="https://github.com/axios/axios">Axios</a>
+      <br />
+      <sub>
+        <p> See the package.json file for more information.</p>      
+      </sub>
+    </div>
+  </section>
+</details>
+<details>
+  <summary><b>Mobile - <a href="http://www.reactnative.com/">React Native</a> + <a href="https://www.typescriptlang.org/">Typescript</a></b></summary>
+  <section>
+    <div style="display: flex; flex-direction: column">
+      <a href="https://expo.io/">Expo</a><br />
+      <a href="https://docs.expo.io/versions/latest/sdk/constants/">Expo Google Fonts</a><br />
+      <a href="https://reactnavigation.org/">React Navigation</a><br />a><br />
+      <a href="https://github.com/axios/axios">Axios</a><br />
+      <br />
+      <sub>
+        <p> See the package.json file for more information.</p>      
+      </sub>
+    </div>
+  </section>
+</details>
+
+## How to contribute to the project
+
+1. **Fork** this project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save your changes and create a commit message telling you what you did: `git commit -m" feature: My new feature "`
+4. Submit your changes: `git push origin my-feature`
+   > If in doubt, check out this [how to contribute to GitHub] (./ CONTRIBUTING.md)
+
+---
+
+## Dev, s who worked on this Repository
 
 <a href="https://github.com/felipe-antoniati">
- <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/63480609?s=460&u=c69fe399d6e97159b75b64b597b007ff8e6ac553&v=4" width="100px;" alt="Fullstack Programmer"/>
+ <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/63480609?s=460&u=c69fe399d6e97159b75b64b597b007ff8e6ac553&v=4" width="100px;" alt="Fullstack Developer"/>
  <br />
- <sub><b>Felipe Antoniati</b></sub></a> <a href="https://github.com/felipe-antoniati" title="Fullstack Programmer">🚀</a>
+ <sub><b>Felipe Antoniati</b></sub></a> <a href="https://github.com/felipe-antoniati" title="Fullstack Developer">🚀</a>
  <br /><br />
 
-[![Twitter Badge](https://img.shields.io/badge/-@felipe-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/)](https://twitter.com/) [![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/)](https://www.linkedin.com/in/felipe-antoniati-1288041b7/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/)](https://www.linkedin.com/in/felipe-antoniati-1288041b7/)<br />
 [![Gmail Badge](https://img.shields.io/badge/-antoniati.felipe@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:antoniati.felipe@gmail.com)](mailto:antoniati.felipe@gmail.com)
 
 ---
 
-## 📝 Licença
+## License
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+This project is under license [MIT](./LICENSE).
 
 ---
 
-##  Versões do README
+## README versions
 
-[Português 🇧🇷](./README.md)  |  [Inglês sem emojis 🇺🇸](./README-en.md) 
+[English-EUA 🇺🇸](./README.md) | [Portuguese-BR 🇧🇷](./README-ptBR.md)
 
-
-De uma ⭐️ neste Projeto, para liberar a dopamina!
+From a ⭐️ in this Project, to release dopamine!
