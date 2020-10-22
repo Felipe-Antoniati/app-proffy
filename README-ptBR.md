@@ -27,11 +27,11 @@
     <div>
     O conteúdo é exibido durante <b>1 semana</b>, e em cada dia da semana, é apresentado uma etapa para o desenvolvimento do projeto, desde o <b>Back-end</b> até o <b>Front-end Web</b> e <b>Mobile</b>, utilizando as tecnologias:
     <br />
-    <div style="display: flex; flex-direction: row; margin-left: 1.6rem">
-      <a href="">NodeJS <img src="./.github/nodejs.png" alt="NodeJs" style="width: 60%/></a>
-      <a href="">ReacJs <img src="./.github/reactjs.png" alt="NodeJs" style="width: 60%/></a>
-      <a href="">React Native <img src="./.github/react-native.png" alt="NodeJs"style="width: 60%"/></a>
-    </div>
+    <div align="center">
+	<a href="">NodeJS <img src="./.github/nodejs.png" alt="NodeJs"/></a>
+        <a href="">ReacJS <img src="./.github/reactjs.png" alt="React JS"/></a>
+        <a href="">React Native <img src="./.github/react-native.png" alt="React Native"/></a>
+    </div> 
     </div>  
   </section>
 </details>
