@@ -30,7 +30,7 @@
     <br />
     <div align="center">
 	<a href="">NodeJS <img src="./.github/nodejs.png" alt="NodeJs"/></a>
-        <a href="">ReacJS <img src="./.github/reactjs.png" alt="React JS"/></a>
+        <a href="">ReactJS <img src="./.github/reactjs.png" alt="React JS"/></a>
         <a href="">React Native <img src="./.github/react-native.png" alt="React Native"/></a>
     </div> 
     </div>  
