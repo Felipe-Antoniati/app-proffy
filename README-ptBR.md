@@ -27,6 +27,7 @@
     <div>
     O conteúdo é exibido durante <b>1 semana</b>, e em cada dia da semana, é apresentado uma etapa para o desenvolvimento do projeto, desde o <b>Back-end</b> até o <b>Front-end Web</b> e <b>Mobile</b>, utilizando as tecnologias:
     <br />
+    <br />
     <div align="center">
 	<a href="">NodeJS <img src="./.github/nodejs.png" alt="NodeJs"/></a>
         <a href="">ReacJS <img src="./.github/reactjs.png" alt="React JS"/></a>
