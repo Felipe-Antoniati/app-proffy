@@ -29,7 +29,7 @@
     The content is displayed during <b>1 week</b>, and on each day of the week, a stage for the development of the project is presented, from the <b>Back-end</b> to the <b>Front-end Web</b> and <b>Mobile</b>, using the technologies:
     <br />
     <br />
-    <div>
+    <div align="center">
 	<a href="">NodeJS <img src="./.github/nodejs.png" alt="NodeJs"/></a>
         <a href="">ReacJS <img src="./.github/reactjs.png" alt="React JS"/></a>
         <a href="">React Native <img src="./.github/react-native.png" alt="React Native"/></a>
