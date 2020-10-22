@@ -30,9 +30,18 @@
     <br />
     <br />
     <div align="center" style="display: flex; flex-direction: row; ">
-      <a href="">NodeJS <img src="./.github/nodejs.png" alt="NodeJs" style="margin: 3px;"/></a>
-      <a href="">ReacJS <img src="./.github/reactjs.png" alt="React JS" style="margin: 3px;"/></a>
-      <a href="">React Native <img src="./.github/react-native.png" alt="React Native"/></a>
+      <div style="margin: 3px;">
+        <a href="">NodeJS <img src="./.github/nodejs.png" alt="NodeJs"/></a>
+      </div>
+      <div style="margin: 3px;">
+        <a href="">ReacJS <img src="./.github/reactjs.png" alt="React JS"/></a>
+      </div>
+      <div style="margin: 3px;">
+        <a href="">React Native <img src="./.github/react-native.png" alt="React Native"/></a>
+      </div>
+
+
+
     </div> 
     </div>
   </section>
